@@ -1,0 +1,9 @@
+@Component in Angular
+has selector, templateUrl, styleUrl
+the selector can be used in the following ways
+1. selector: 'app-root'
+<app-root></app-root> 
+2.selector : '.app-root' as a className
+<div class="app-root"></div>
+3.selector: '[app-root]' as an attribute
+<div app-root></div>
